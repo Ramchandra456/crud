@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": "3",
+      "name": "goswami",
+      "city": "noida1",
+      "age": 23,
+      "email": "shubham1@gmail.com"
+    },
+    {
+      "id": "e5a7",
+      "name": "shubham",
+      "age": "22",
+      "city": "varanasi",
+      "email": "shubhamgoswami@gmail.com"
+    },
+    {
+      "id": "028f",
+      "name": "ram",
+      "age": "24",
+      "city": "noida",
+      "email": "ram@gmail.com"
+    },
+    {
+      "id": "13c8",
+      "name": "kamal",
+      "age": "22",
+      "city": "lucknow",
+      "email": "k@gmail.com"
+    },
+    {
+      "id": "1a94",
+      "name": "ushashingh",
+      "age": "25",
+      "city": "lucknow",
+      "email": "uaha@gmai.com"
+    }
+  ]
+}
