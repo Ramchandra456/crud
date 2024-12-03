@@ -34,6 +34,13 @@
       "age": "25",
       "city": "lucknow",
       "email": "uaha@gmai.com"
+    },
+    {
+      "id": "992c",
+      "name": "pintu",
+      "age": "22",
+      "city": "patna",
+      "email": "pitu@gmail.com"
     }
   ]
 }
