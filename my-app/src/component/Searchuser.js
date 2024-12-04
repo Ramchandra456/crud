@@ -1,26 +1,29 @@
-import React from 'react';
+import React,{ useState } from 'react';
 import 'font-awesome/css/font-awesome.min.css';
-import { useState } from 'react';
 import axios from 'axios';
 function Searchuser() {
   let [val,setval] = useState()
   let[mydata,setmydata] = useState()
  let searchdata = (key)=>{
   axios.get("http://localhost:3000/users?name="+key).then((res)=>{
-    console.log(res.data)
+   
     setmydata(res.data)
+    console.log(res.data)
   })
   axios.get("http://localhost:3000/users?email="+key).then((res)=>{
-    console.log(res.data)
+    
     setmydata(res.data)
+    console.log(res.data)
    })
   axios.get("http://localhost:3000/users?city="+key).then((res)=>{
-    console.log(res.data)
+    
     setmydata(res.data)
+    console.log(res.data)
   })
   axios.get("http://localhost:3000/users?age="+key).then((res)=>{
-    console.log(res.data)
+    
     setmydata(res.data)
+    console.log(res.data)
   })
 
 }
